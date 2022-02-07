@@ -17,4 +17,20 @@ ul {
 .navbar {
     display: flex;
     justify-content: space-around;
+    padding: 15px;
+    
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar,
+.header {
+    background-color: #1f2937;
+    color: white;
+}
+
+.container {
+    display: flex;
 }
