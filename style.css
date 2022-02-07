@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+  
+}
+
 a {
     text-decoration: none;
 }
@@ -26,11 +36,25 @@ ul {
 }
 
 .navbar,
-.header {
+.header,
+.footer {
     background-color: #1f2937;
     color: white;
 }
 
 .container {
     display: flex;
+    
+    
 }
+
+.footer {
+    padding: 15px;
+    display: flex;
+}
+
+.flex-container {
+    flex: 1;
+}
+
+
