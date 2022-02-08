@@ -24,10 +24,13 @@ ul {
     gap: 8px;
 }
 
-.navbar {
+.nav-container {
+    font-size: large;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
     display: flex;
-    justify-content: center;
-       
+    justify-content: space-between;
 }
 
 .navbar a:hover{
@@ -49,20 +52,33 @@ ul {
 }
 
 .header img {
-    width: 700px;
+    width: 550px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+
+    
     border-radius: 25px;
     border: solid black 3px;
 }
 
 .container {
+    font-size: larger;
+    margin-left: 200px;
+    margin-right: 200px;
     display: flex; 
     justify-content: center; 
-    align-items: center;
+    gap: 10px;
+}
+
+.header button {
+    margin-top: 8px;
 }
 
 .info {
     text-align: center;
     font-weight: bolder;   
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .info h1 {
