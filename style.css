@@ -6,7 +6,6 @@
 
 body {
     height: 100vh;
-    margin: 0;
     font-family: Roboto, sans-serif;
     background-color: #BFC0C0;
     display: flex;
@@ -15,6 +14,8 @@ body {
 
 a {
     text-decoration: none;
+    color: #BFC0C0;
+    
 }
 
 ul {
@@ -25,13 +26,18 @@ ul {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    
+    justify-content: center;
+       
 }
+
+.navbar a:hover{
+    color: #EA7D02;
+}
+
 
 .navbar a {
     color: silver;
+    
 }
 
 .navbar,
@@ -51,31 +57,57 @@ ul {
 .container {
     display: flex; 
     justify-content: center; 
+    align-items: center;
+}
+
+.info {
+    text-align: center;
+    font-weight: bolder;   
+}
+
+.info h1 {
+    font-size: xx-large;
+    padding: 25px;
 }
 
 .info-container {
     margin: 10px;
+    padding: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .quote {
     display: flex;
     justify-content: center; 
     background-color: #486235; 
-    padding: 10px;    
+    padding: 50px;
+       
+}
+
+.quote h1 {
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+.quote p {
+    text-align: end;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 .footer {
     padding: 15px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-container {
    flex: 1;
-    
-}
+}   
 
 .box img {
     width: 200px;
@@ -95,21 +127,32 @@ ul {
     border-radius: 25px;
     background-color: #EA7D02;
     color: silver;
-    margin: 15px;
+    margin: 45px;
     margin-left: 200px;
     margin-right: 200px;
     padding: 15px;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    align-items: center;
+    gap: 20px;
 }
 
 button {
-    border-radius: 25px;
+    font-size: medium;
+    border-radius: 15px;
     background-color: #EA7D02;
-    color: black;
-    padding: 10px;
+    color: silver;
+    padding: 15px;
+    border: solid silver 2px;
 }
 
+.footer h1 {
+    font-size: medium;
+    color: #BFC0C0;
+}
+
+.footer  a:hover {
+    color: #EA7D02;
+}
 
 
