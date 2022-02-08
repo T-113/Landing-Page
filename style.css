@@ -8,6 +8,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Roboto, sans-serif;
+    background-color: #BFC0C0;
     display: flex;
     flex-direction: column;
 }
@@ -24,26 +25,27 @@ ul {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
-    padding: 15px;
+    justify-content: space-between;
+    padding: 20px;
     
 }
 
 .navbar a {
-    color: white;
+    color: silver;
 }
 
 .navbar,
 .header,
 .footer {
-    background-color: #1f2937;
-    color: white;
+    background-color: #2B0504;
+    color: silver;
     padding: 10px;
 }
 
 .header img {
     width: 700px;
     border-radius: 25px;
+    border: solid black 3px;
 }
 
 .container {
@@ -61,7 +63,7 @@ ul {
 .quote {
     display: flex;
     justify-content: center; 
-    background-color: #e5e7eb; 
+    background-color: #486235; 
     padding: 10px;    
 }
 
@@ -78,6 +80,8 @@ ul {
 .box img {
     width: 200px;
     border-radius: 25px;
+    border: solid #EA7D02 3px;
+    
     
 }
 .box {
@@ -89,16 +93,23 @@ ul {
 
 .sign-up-container {
     border-radius: 25px;
-    background-color: #1f2937;
-    color: white;
+    background-color: #EA7D02;
+    color: silver;
     margin: 15px;
     margin-left: 200px;
     margin-right: 200px;
     padding: 15px;
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
+button {
+    border-radius: 25px;
+    background-color: #EA7D02;
+    color: black;
+    padding: 10px;
+}
 
 
 
