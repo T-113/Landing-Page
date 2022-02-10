@@ -171,10 +171,3 @@ button {
     color: #EA7D02;
 }
 
-@media(max-width: 768px) {
-    .flex-container .nav-container .info-container .header{
-        flex-direction: column;
-        padding-top: 20px;
-        text-align: center;
-    }
-}
